@@ -1,0 +1,38 @@
+.Title {
+    size: 1000px;
+    text-align: center;
+    padding: 1%;
+    border: 5px dotted black;
+
+}
+.Images img{
+position: relative;
+    right: -200px;
+    top: 100px;
+    height: 500px;
+    width: auto;
+    height: 30vh;
+    display: flex;
+
+    display: inline-block;
+    
+    
+}
+
+.text1 {
+    position: relative;
+    top: 100px;
+    margin-left: 50px;
+    font-size: 11px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text2{
+    display: flex;
+    display:right;
+    position: relative;
+    top: -50px;
+    margin: 200px;
+    font-size: 11px;
+    font-family: 'Courier New', Courier, monospace;
+}
