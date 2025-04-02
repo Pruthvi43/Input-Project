@@ -5,28 +5,30 @@
     border: 5px dotted black;
 
 }
-.Images {
-    display: inline-block;
+/* .Images {
+
+    
+    
+/* position: relative;
+  right: 100px; */
+ /* top: -350px; */
+ 
+.pruthvi{
     display: flex;
-    
-    
-position: relative;
-  right: 100px;
- top: -350px;
+
 }
 p {
-    display: inline-block;
-    position: relative;
-    top: 0px;
-}
-.Images img {
-    display: inline-block;
-    height: 200px;
-    width: auto;
-position: relative;
-  right: -200px;
+    display: flex;
+
  
-  margin : 50px;
+}
+
+.Images img{
+    display: flex;
+flex: 1;
+    width: 100px;
+/* position: relative;
+  right: -200px; */
     
     
 }
@@ -36,24 +38,25 @@ position: relative;
 }
 
 .text1 {
-    position: relative;
-    top: 100px;
+    /* position: relative;
+    top: 100px; */
     margin-left: 50px;
     font-size: 11px;
     font-family: 'Courier New', Courier, monospace;
 }
 .sideText {
+
     display: flex;
-    flex: 1;
-    position: relative;
+    /* position: relative;
     top: -100px;
-    right: -100px;
+    right: -100px; */
     border: 2px solid black;
     padding: 1%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 10px;
-    margin-left: 150px;    
-    
+    margin-left: 20px;    
+    width: 200px;
+
 
 
 }
@@ -67,4 +70,21 @@ position: relative;
     font-size: 11px;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 50px;
+}
+.TK{
+flex: 1;
+  
+}
+.Bouncy{
+    flex: 1;
+
+
+}
+.Ball{
+
+    flex: 1;
+
+}
+.content{
+    display: flex;
 }
